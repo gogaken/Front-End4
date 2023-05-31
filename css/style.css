@@ -1,0 +1,44 @@
+header{
+	background-color: #0020F4;
+	height: 400px;
+}
+
+body{
+	font-family: montserrat;
+}
+nav{
+	background-color: #0020F4;
+	height: 80px;
+	width: 100%;
+}
+div.logo{
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav	ul li a{
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+nav.active{
+	background-color: #fff;
+}
+.shenoba {
+	display: block;
+	margin: auto ;
+	width: 70%;
+}
