@@ -1,32 +1,54 @@
 header{
+    display: block;
 	background-color: #0020F4;
 	height: 400px;
 }
+.shenoba{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 body{
+    display: block;
 	font-family: montserrat;
 }
+*{
+    display: block;
+	padding: 0px;
+	margin: 0px; 
+	text-decoration: none;	
+	list-style: none;
+	box-sizing: border-box;
+}
+
+
 nav{
+    
 	background-color: #0020F4;
 	height: 80px;
 	width: 100%;
 }
 div.logo{
+    
 	font-size: 35px;
 	line-height: 80px;
 	padding: 0 100px;
 	font-weight: bold;
 }
 nav ul{
+    
 	float: right;
 	margin-right: 20px;
 }
 nav ul li{
+    
 	display: inline-block;
 	line-height: 80px;
 	margin: 0 5px;
 }
 nav	ul li a{
+    
 	color: #fff;
 	font-size: 17px;
 	text-transform: uppercase;
@@ -35,10 +57,43 @@ nav	ul li a{
 	text-transform: uppercase;
 }
 nav.active{
+    display: block;
 	background-color: #fff;
 }
-.shenoba {
-	display: block;
-	margin: auto ;
-	width: 70%;
+.red{   
+    
+    background-color: rgb(243, 16, 16);
+}
+.text-p{    
+    display: block;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-helveticaneueltgeow82-55rm);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-171717);
+    text-align: left;
+    font: normal normal normal 16px/26px HelveticaNeueLTGEOW82-55Rm;
+    letter-spacing: 0px;
+    color: #171717;
+    opacity: 1;
+}
+.PP{
+    display: block;
+    margin: 20px;
+}
+.p2{
+    display: block;
+    margin: 40px;
+}
+.p3{
+    display: block;
+    margin: 40px;
+}
+.damatebiti{
+    color: #fff;
+    background-color: #0020F4  ;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-top: 20px;
+}
+footer{
+    background-color: #0020F4;
 }
