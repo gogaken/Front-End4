@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
 header{
     display: block;
 	background-color: #0020F4;
@@ -99,10 +105,18 @@ nav.active{
 footer{
     margin-top: 20px;
     background-color: #0020F4;
-    height: 400px;
+    height: 600px;
 }
 .footer{
+    padding-right: 50%;
     margin-top: 20px;
     font-size: 24px;
+    color: #fff; 
+}
+
+h1.\.footer-satauri{
     color: #fff;
+}
+iframe{
+    margin-top: 60px;
 }
